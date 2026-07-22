@@ -1,0 +1,9 @@
+{
+  "name": "trucker-bz",
+  "version": "0.2.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "trucksim-telemetry": "^1.0.0"
+  }
+}

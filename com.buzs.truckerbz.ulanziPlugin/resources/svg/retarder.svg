@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 72 72">
+  <g transform="matrix(1.46385 0 0 1.4609 -16.699 -2.15)">
+    <text x="36" y="33.803" fill="#d8d8d8" stroke-width="1.005" font-family="sans-serif" font-size="24.131" font-weight="400" text-anchor="middle"><tspan>∞</tspan></text>
+    <circle cx="36" cy="26.115" r="13.887" fill="none" stroke="#d8d8d8" stroke-width="2.75"/>
+    <path fill="none" stroke="#d8d8d8" stroke-linecap="round" stroke-width="2.75" d="M25.635 43.748a20.361 20.361 0 0 1-10.18-17.633A20.361 20.361 0 0 1 25.634 8.48m20.731 35.268a20.361 20.361 0 0 0 10.18-17.633A20.361 20.361 0 0 0 46.366 8.48"/>
+  </g>
+</svg>

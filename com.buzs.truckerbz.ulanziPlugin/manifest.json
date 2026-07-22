@@ -1,0 +1,384 @@
+{
+  "Author": "Buzs",
+  "Name": "Trucker Bz",
+  "Description": "ETS2/ATS telemetry controller for Ulanzi D200.",
+  "Icon": "resources/assets/truckerbz_mini_logo.png",
+  "Version": "0.2.0",
+  "Category": "Gaming",
+  "CategoryIcon": "resources/assets/truckerbz_logo.png",
+  "CodePath": "plugin/app.js",
+  "Type": "JavaScript",
+  "PrivateAPI": false,
+  "UUID": "com.buzs.ulanzistudio.truckerbz",
+  "Actions": [
+    {
+      "Name": "Lights | Blinker",
+      "Icon": "resources/icons/ets2/indicators/indicator_left_on.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Lights | Blinker",
+          "Image": "resources/icons/ets2/indicators/indicator_left_on.png"
+        }
+      ],
+      "Tooltip": "Lights | Blinker",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.blinker",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Lights | Main Switch",
+      "Icon": "resources/icons/ets2/lights/low_beam_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Lights | Main Switch",
+          "Image": "resources/icons/ets2/lights/low_beam_off.png"
+        }
+      ],
+      "Tooltip": "Lights | Main Switch",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.switch",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Lights | High Beam",
+      "Icon": "resources/icons/ets2/lights/high_beam_on.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Lights | High Beam",
+          "Image": "resources/icons/ets2/lights/high_beam_on.png"
+        }
+      ],
+      "Tooltip": "Lights | High Beam",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.highBeam",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Lights | Beacon",
+      "Icon": "resources/icons/ets2/beacon/beacon_2_on.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Lights | Beacon",
+          "Image": "resources/icons/ets2/beacon/beacon_2_on.png"
+        }
+      ],
+      "Tooltip": "Lights | Beacon",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.beacon",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Windows",
+      "Icon": "resources/icons/ets2/misc/window_left_down.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Windows",
+          "Image": "resources/icons/ets2/misc/window_left_down.png"
+        }
+      ],
+      "Tooltip": "Windows",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.window",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Parking Brake",
+      "Icon": "resources/icons/ets2/brakes/parkbreak_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Parking Brake",
+          "Image": "resources/icons/ets2/brakes/parkbreak_off.png"
+        }
+      ],
+      "Tooltip": "Parking Brake",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.parkingBrake",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Trailer hookup",
+      "Icon": "resources/icons/ets2/misc/trailer_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Trailer hookup",
+          "Image": "resources/icons/ets2/misc/trailer_off.png"
+        }
+      ],
+      "Tooltip": "Trailer hookup",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.trailerHookup",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Fuel",
+      "Icon": "resources/icons/ets2/misc/truck_icon.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Fuel",
+          "Image": "resources/icons/ets2/misc/truck_icon.png"
+        }
+      ],
+      "Tooltip": "Fuel",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.fuel",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Trip",
+      "Icon": "resources/svg/tripinfo.svg",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Trip",
+          "Image": "resources/svg/tripinfo.svg"
+        }
+      ],
+      "Tooltip": "Trip",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.trip",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Speed Limit Indicator",
+      "Icon": "resources/svg/LimitBlank.svg",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Speed Limit Indicator",
+          "Image": "resources/svg/LimitBlank.svg"
+        }
+      ],
+      "Tooltip": "Speed Limit Indicator",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.speedLimit",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Rest",
+      "Icon": "resources/svg/sleepbase.svg",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Rest",
+          "Image": "resources/svg/sleepbase.svg"
+        }
+      ],
+      "Tooltip": "Rest",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.rest",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Retarder",
+      "Icon": "resources/icons/ets2/brakes/retarder_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Retarder",
+          "Image": "resources/icons/ets2/brakes/retarder_off.png"
+        }
+      ],
+      "Tooltip": "Retarder",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.retarder",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Cruise Control",
+      "Icon": "resources/icons/ets2/cruise_ctrl/cruise_ctrl_toggle.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Cruise Control",
+          "Image": "resources/icons/ets2/cruise_ctrl/cruise_ctrl_toggle.png"
+        }
+      ],
+      "Tooltip": "Cruise Control",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.cruise",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Suspension",
+      "Icon": "resources/icons/ets2/suspensions/reset.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Suspension",
+          "Image": "resources/icons/ets2/suspensions/reset.png"
+        }
+      ],
+      "Tooltip": "Suspension",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.suspension",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Speed",
+      "Icon": "resources/icons/ets2/misc/truck_icon.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Speed",
+          "Image": "resources/icons/ets2/misc/truck_icon.png"
+        }
+      ],
+      "Tooltip": "Speed",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.speed",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Gear",
+      "Icon": "resources/icons/ets2/gears/neutral_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Gear",
+          "Image": "resources/icons/ets2/gears/neutral_off.png"
+        }
+      ],
+      "Tooltip": "Gear",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.gear",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Wipers",
+      "Icon": "resources/icons/ets2/misc/wipers_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Wipers",
+          "Image": "resources/icons/ets2/misc/wipers_off.png"
+        }
+      ],
+      "Tooltip": "Wipers",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.wipers",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Electric",
+      "Icon": "resources/icons/ets2/engine_start_stop/battery_off.png",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Electric",
+          "Image": "resources/icons/ets2/engine_start_stop/battery_off.png"
+        }
+      ],
+      "Tooltip": "Electric",
+      "UUID": "com.buzs.ulanzistudio.truckerbz.electric",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    }
+  ],
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinVersion": "2.1.4"
+  }
+}

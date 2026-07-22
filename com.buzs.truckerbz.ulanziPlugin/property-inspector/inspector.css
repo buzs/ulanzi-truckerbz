@@ -1,0 +1,73 @@
+.deckforge-field{display:flex;align-items:center;gap:12px;min-height:36px;margin:0 0 10px}
+.deckforge-field-label{
+    font-size: 12px;
+    color: var(--uspi-textcolor);
+    text-align: left;
+    margin-right: 0;
+    width: auto;
+}
+.deckforge-field-control{flex:1;min-width:0}
+.deckforge-field-description{width:100%;font-size:12px;color:var(--uspi-muted)}
+.deckforge-custom-fields:not([hidden]){margin:0 0 8px}
+.deckforge-custom-field{gap:8px;min-height:22px;margin:0}
+.deckforge-custom-field+.deckforge-custom-field{margin-top:6px}
+.deckforge-custom-field-value{display:flex;align-items:center;justify-content:flex-start;gap:7px;color:var(--uspi-textcolor);min-height:22px;text-align:left;word-break:break-word}
+.deckforge-custom-field-text{min-width:0}
+.deckforge-custom-field-indicator{display:inline-block;flex:0 0 auto;width:9px;height:9px;border-radius:999px;background:var(--uspi-muted)}
+.deckforge-custom-field.is-muted .deckforge-custom-field-value{color:var(--uspi-muted)}
+.deckforge-custom-field.is-ok .deckforge-custom-field-indicator{background:#3ba55d;box-shadow:0 0 8px rgba(59,165,93,.55)}
+.deckforge-custom-field.is-warning .deckforge-custom-field-indicator{background:#f0b232;box-shadow:0 0 8px rgba(240,178,50,.45)}
+.deckforge-custom-field.is-error .deckforge-custom-field-indicator{background:#ed4245;box-shadow:0 0 8px rgba(237,66,69,.5)}
+
+.deckforge-select-input{min-width:0}
+
+.deckforge-hotkey-picker {
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:4px
+}
+
+.deckforge-hotkey-input {
+    flex:1;
+    min-width:0
+}
+
+.deckforge-hotkey-input.is-observing {
+    color: var(--uspi-muted)
+}
+
+.deckforge-hotkey-button {
+    width:32px;
+    flex:0 0 32px;
+    padding:6px 0;
+    text-align:center;
+    pointer-events:none;
+    color: #9c9c9c;
+    border: none;
+
+    background: url(../libs/assets/u_down.svg) no-repeat center;
+    background-size: 16px 16px;
+}
+
+.deckforge-hotkey-select {
+    position:absolute;
+    top:0;
+    right:0;
+    width: var(--uspi-width);
+    height:100%;
+    opacity:0;
+    z-index:1;
+    cursor:pointer;
+    color: var(--uspi-textcolor);
+    padding: 0 10px;
+    background-color: var(--uspi-inputbg);
+}
+
+.deckforge-hotkey-select optgroup {
+    border-top: 1px solid var(--uspi-bordercolor);
+}
+
+.deckforge-hotkey-select option {
+    padding: 2px 0px;
+}

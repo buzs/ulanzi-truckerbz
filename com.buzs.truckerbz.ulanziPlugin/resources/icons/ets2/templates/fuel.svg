@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="196" viewBox="0 0 196 196">
+  <!-- Editable template. Dynamic placeholders: MODE_MARK, ACCENT, GAUGE_Y, GAUGE_HEIGHT, PRIMARY, SECONDARY. -->
+  <rect x="1" y="1" width="194" height="194" rx="22" fill="#202020" stroke="#4c4c4c" stroke-width="4"/>
+  <rect x="14" y="14" width="168" height="168" rx="18" fill="#111111" stroke="#2f2f2f" stroke-width="2"/>
+  <text x="98" y="28" fill="#9a9a9a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">{{MODE_MARK}}</text>
+
+  <rect x="34" y="48" width="56" height="72" rx="7" fill="none" stroke="#cfd3d8" stroke-width="7"/>
+  <rect x="45" y="58" width="34" height="19" rx="3" fill="#cfd3d8"/>
+  <rect x="75" y="61" width="9" height="54" rx="3" fill="#333333"/>
+  <rect x="75" y="{{GAUGE_Y}}" width="9" height="{{GAUGE_HEIGHT}}" rx="3" fill="{{ACCENT}}"/>
+
+  <path d="M111 48h31a10 10 0 0 1 10 10v61H101V58a10 10 0 0 1 10-10Z" fill="none" stroke="#cfd3d8" stroke-width="7"/>
+  <rect x="115" y="58" width="24" height="22" rx="3" fill="#cfd3d8"/>
+  <path d="M152 67h9v42c0 8-5 13-12 13h-4" fill="none" stroke="#cfd3d8" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="156" cy="55" r="4" fill="#cfd3d8"/>
+
+  <text x="98" y="145" fill="#ffd900" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900" text-anchor="middle">{{PRIMARY}}</text>
+  <text x="98" y="169" fill="#ffd900" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" text-anchor="middle">{{SECONDARY}}</text>
+</svg>

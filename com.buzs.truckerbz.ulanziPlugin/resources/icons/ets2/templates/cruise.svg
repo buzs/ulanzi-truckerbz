@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="196" viewBox="0 0 196 196">
+  <!-- Editable template. Dynamic placeholders: ACCENT, TICKS, NEEDLE_X, NEEDLE_Y, SIGN, SIGN_COLOR, VALUE, UNIT, OFF. -->
+  <rect x="1" y="1" width="194" height="194" rx="22" fill="#111111" stroke="#3c3c3c" stroke-width="4"/>
+  <text x="98" y="28" fill="#eeeeee" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Cruise control</text>
+  <circle cx="98" cy="83" r="48" fill="#151515" stroke="{{ACCENT}}" stroke-width="5"/>
+  {{TICKS}}
+  <line x1="98" y1="83" x2="{{NEEDLE_X}}" y2="{{NEEDLE_Y}}" stroke="{{ACCENT}}" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="98" cy="83" r="6" fill="#eeeeee"/>
+  <path d="M142 37l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1Z" fill="#d9dde2"/>
+  <text x="98" y="159" fill="{{SIGN_COLOR}}" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="900" text-anchor="middle">{{SIGN}}</text>
+  <text x="98" y="148" fill="{{ACCENT}}" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" text-anchor="middle">{{VALUE}}</text>
+  <text x="98" y="170" fill="{{ACCENT}}" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="900" text-anchor="middle">{{UNIT}}</text>
+  <text x="98" y="160" fill="#eeeeee" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" text-anchor="middle">{{OFF}}</text>
+</svg>

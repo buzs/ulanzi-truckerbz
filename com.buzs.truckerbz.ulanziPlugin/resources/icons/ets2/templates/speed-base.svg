@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="196" viewBox="0 0 196 196">
+  <!-- Editable template. Dynamic placeholders: VALUE, UNIT. -->
+  <rect x="1" y="1" width="194" height="194" rx="22" fill="#050505" stroke="#303030" stroke-width="4"/>
+  <rect x="18" y="22" width="160" height="152" rx="22" fill="#0a0a0a" stroke="#202020" stroke-width="4"/>
+  <text x="98" y="106" fill="#eeeeee" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="900" text-anchor="middle">{{VALUE}}</text>
+  <text x="98" y="140" fill="#eeeeee" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" text-anchor="middle">{{UNIT}}</text>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "cover": "assets/gh_logo.png",
+  "screenshots": [
+    "assets/gh_logo.png"
+  ],
+  "longDescription": "ETS2/ATS telemetry controller for Ulanzi D200.",
+  "deviceTypes": [
+    "deck",
+    "dial"
+  ],
+  "tags": [
+    "games",
+    "ets2",
+    "ats2",
+    "telemetry"
+  ]
+}
